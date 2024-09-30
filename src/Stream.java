@@ -1,7 +1,7 @@
 import java.util.Iterator;
 import java.util.List;
 
-public class Stream implements Iterable<StudentGroup>, Comparable<Stream>{
+public class Stream implements Iterable<Stream>, Comparable<Stream>{
     private List<Stream> GroupsList;
 
     public List<Stream> getGroupsList() {

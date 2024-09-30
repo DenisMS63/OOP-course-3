@@ -6,9 +6,9 @@ public class StreamIterator implements Iterator<Stream> {
     private final List<Stream> GroupsList;
 
 
-    public StreamIterator(Stream studyStream) {
+    public StreamIterator(Stream stream) {
         this.counter = 0;
-        this.GroupsList = studyStream.getGroupsList();
+        this.GroupsList = stream.getGroupsList();
     }
 
     @Override
